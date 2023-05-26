@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box; /*указывает браузеру учитывать любые границы и отступы в значениях, которые вы указываете для ширины и высоты элемента.*/
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+:root {
+	--color-accent: #5d71dd;
+}
+
+body {
+	margin: 0;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+	overflow-anchor: none;
+}

@@ -1,0 +1,61 @@
+@import 'global.css';               /*Импорт правил*/
+
+body {
+	background-color: #fafafa;    /*Цвет фона*/
+	min-height: 100vh;              /*Минимальная высота элемента*/
+	display: flex;                  /*Тип отображения бокса*/
+	align-items: center;            /*Выравнивание элементов по поперечной оси*/
+	justify-content: center;        /*Распределяет элементы по главной оси*/
+}
+.visually-hidden {
+	position: absolute !important;  /*Позиционирование в документе*/
+	padding: 0 !important;          /*Отступы*/
+	border: 0 !important;           /*Граница*/
+	height: 1px !important;         /*Высота*/
+	width: 1px !important;          /*Ширина*/
+	overflow: hidden;               /*Поведение*/
+}
+.time-count {
+	background: #fff;             /*Все свойства стиля фона*/                             
+	box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2); /*Тень элемента*/
+	border-radius: 30px;            /*Сглаживание углов*/
+	height: 359px;                  /*Ширина*/
+    width: 796px;                   /*Высота*/
+	padding: 75px 86px;             /*Отступы*/
+}
+.time-count_title {
+	margin: 0;                      /*Внешние отступы на всех сторонах*/
+	margin-bottom: 35px;            /*Внешние отступы внизу элемента*/
+	font-weight: 700;               /*Толщина шрифта*/
+	font-size: 40px;                /*Размер шрифта*/
+	line-height: 47px;              /*Междустрочный интервал*/
+	text-align: center;             /*Выравнивание текста*/
+}
+.time-count_content {
+	display: flex;                  /*Тип отображения бокса*/
+	justify-content: center;        /*Распределяет элементы по главной оси*/
+}
+.time-count_item { 
+	text-align: center;             /*Выравнивание текста*/
+}
+.time-count_val {
+	min-width: 81px;                /*Минимальная высота элемента*/
+	font-weight: 700;               /*Толщина шрифта*/
+	font-size: 70px;                /*Размер шрифта*/
+	line-height: 82px;              /*Междустрочный интервал*/
+	color: var(--color-accent);     /*Цвет текста*/
+}
+.time-count_separator {
+	font-weight: 700;               /*Толщина шрифта*/
+	font-size: 48px;                /*Размер шрифта*/
+	line-height: 74px;              /*Междустрочный интервал*/
+	text-align: center;             /*Выравнивание текста*/      
+	color: var(--color-accent);     /*Цвет текста*/
+	margin: 0 33px;                 /*Внешние отступы на всех сторонах*/
+}
+.time-count_text {
+	font-family: 'Noto Sans', sans-serif;   /*Стиль текста*/
+	font-weight: 400;               /*Толщина шрифта*/
+	font-size: 14px;                /*Размер шрифта*/
+	line-height: 20px;              /*Междустрочный интервал*/
+}
